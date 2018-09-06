@@ -9,9 +9,11 @@ export default () => {
   return (
     <div>
       <PrivateHeader title="this is your private header" />
-      <LinksListFilters />
-      <AddLink />
-      <LinksList />
+      <div className="page-content">
+        <LinksListFilters />
+        <AddLink />
+        <LinksList />
+      </div>
     </div>
   );
 };
