@@ -21,7 +21,6 @@ Meteor.startup(() => {
   });
 
   WebApp.connectHandlers.use((req, res, next) => {
-    console.log("this is from my custom middleware!");
     next();
   });
 });

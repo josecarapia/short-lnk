@@ -12,7 +12,7 @@ const PrivateHeader = props => {
           onClick={() => Accounts.logout()}
         >
           {" "}
-          back to login{" "}
+          logout{" "}
         </button>
       </div>
     </div>
